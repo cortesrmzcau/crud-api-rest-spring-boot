@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: crud
-  config:
-    name: crud
