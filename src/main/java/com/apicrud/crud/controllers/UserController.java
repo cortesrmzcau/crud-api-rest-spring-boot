@@ -4,7 +4,6 @@ import com.apicrud.crud.models.UserModel;
 import com.apicrud.crud.services.UserService;
 import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -45,4 +44,5 @@ public class UserController {
             return "User not found " + id;
         }
     }
+
 }
