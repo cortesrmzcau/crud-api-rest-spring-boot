@@ -37,7 +37,7 @@ public class UserController {
 
     @DeleteMapping(path = "/{id}")
     public String deletUserById(@PathVariable("id") Long id) {
-        boolean ok = this.userService.deletUser(id);
+        boolean ok = this.userService.deleteUser(id);
         if (ok) {
             return "User deleted " + id;
         } else {

@@ -29,7 +29,7 @@ public class UserService {
         return userRepository.findByPriority(priority);
     }
 
-    public boolean deletUser(Long id) {
+    public boolean deleteUser(Long id) {
         try {
             userRepository.deleteById(id);
             return true;
