@@ -8,3 +8,5 @@
 - Post user: http://crud-api-rest-spring-boot.us-east-1.elasticbeanstalk.com/users
 - Get by priority: http://crud-api-rest-spring-boot.us-east-1.elasticbeanstalk.com/users/query?priority=priority
 - Delete user: http://crud-api-rest-spring-boot.us-east-1.elasticbeanstalk.com/users/id
+
+🔔 El archivo de la base de datos es apicrud.sql
